@@ -493,11 +493,13 @@ section.section-showcase {
   }
   img.device-small {
     width: 100%;
-}
-.downloads {
-    margin-top: 150px;
-}
-
+  }
+  .downloads {
+      margin-top: 150px;
+  }
+  section.section-primary-a {
+      text-align: center;
+  }
   .footer-main ul {
     margin-bottom: 20px;
   }
