@@ -1,2 +1,2 @@
-# p2
-Front-end project using bootstrap and sass 
+# Sky App
+Front-end project using bootstrap 3 and sass 
