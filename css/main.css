@@ -290,7 +290,7 @@ section {
 }
 
 .section-showcase {
-  height: 400px;
+  /*height: 400px;*/
   background: url("../img/showcase.jpg") no-repeat top center;
 }
 .section-showcase .showcase-content {
@@ -467,6 +467,15 @@ section {
   border: 1px solid #cccccc;
   margin-bottom: 20px;
 }
+section.section-showcase {
+    padding-bottom: 0;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+.navbar-inverse .navbar-toggle:hover{
+  background-color: white;
+}
 
 @media (max-width: 768px) {
   .search {
@@ -482,6 +491,12 @@ section {
   .device-small {
     margin-bottom: 20px !important;
   }
+  img.device-small {
+    width: 100%;
+}
+.downloads {
+    margin-top: 150px;
+}
 
   .footer-main ul {
     margin-bottom: 20px;
